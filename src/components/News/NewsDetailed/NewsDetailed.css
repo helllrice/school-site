@@ -1,0 +1,10 @@
+.news-item {
+    padding: 50px 40px;
+    align-items: center;
+}
+
+.news-item h2 {
+    text-align: center;
+    font-size: 32px;
+    color: #5b2b8e;
+}

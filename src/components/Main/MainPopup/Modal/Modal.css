@@ -1,0 +1,15 @@
+.modal-btn {
+    position: absolute;
+    right: 20%;
+    display: block;
+    margin-right: 110px;
+    margin-top: 190px;
+    background-color: #965cc8;
+    font-size: 20px;
+    height: 40px;
+    text-transform: uppercase;
+}
+
+.ant-btn-primary {
+    background: #965cc8;
+}

@@ -1,0 +1,30 @@
+.main-popup {
+    width: 100%;
+    background: url('/public/images/background/home-call.jpg') no-repeat right center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 400px;
+    text-align: center;
+}
+
+.main-popup-item {
+    position: relative;
+    margin-right: 550px;
+}
+
+.main-popup h2 {
+    font-weight: 700;
+    color: #5b2b8e;
+    padding-top: 150px;
+    font-size: 2.25rem;
+}
+
+.main-popup h2 span {
+    display: block;
+    font-family: "Georgia", serif;
+    font-weight: normal;
+    font-style: italic;
+    text-transform: initial;
+}
+

@@ -18,10 +18,8 @@ export const NewsDetailed = () => {
             const item = data.find( (item) =>  item.id == newsId   ) ?? {}
             setNewsDetailed(item)
             setLoad(false)
-
         };
         fetchNews()
-
     }, []);
 
     return (
@@ -29,7 +27,7 @@ export const NewsDetailed = () => {
             <Spinner loading={load}>
                 <div className='news-item'>
                     <h2>{newsDetailed?.title}</h2>
-                        {newsDetailed?.text ? <div dangerouslySetInnerHTML={{__html: newsDetailed?.text}} /> : null}
+                        {newsDetailed?.text ? <div  dangerouslySetInnerHTML={{__html: newsDetailed?.text}} /> : null}
                 </div>
             </Spinner>
         </>

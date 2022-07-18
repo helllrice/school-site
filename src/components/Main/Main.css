@@ -7,11 +7,144 @@
 }
 
 
-.main-container {
+.main-header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+
+.main-header span {
+    font-size: 18px;
+    color: #34135b;
+    font-style: italic;
+}
+
+.main-info {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.main-item {
+    position: relative;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.main-info-right {
+    padding-top: 10px;
+}
+
+
+
+.arrow-link {
+    font-style: normal !important;
+    font-family: 'Roboto', sans-serif !important;
+    color: #fff !important;
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    margin-top: 0;
+}
+
+.main-info-right .right {
+    padding-left: 60px;
+}
+
+.main-info-left .right {
+    padding-left: 60px;
+}
+
+.arrow-link svg {
+    padding-top: 5px;
+    display: block;
+    fill: currentColor;
+    width: 2.5rem;
+    float: right;
+    margin-left: 1rem;
+}
+
+.main-personal::after {
+    content: "";
+    display: block;
+    background: #5b2b8e;
+    width: 100%;
+    height: 0.5rem;
+    opacity: 0.5;
+}
+
+.main-item span {
+    position: absolute;
+    display: block;
+    color: #34135b;
+    font-family: "Georgia", serif;
+    font-size: 1.25rem;
+    font-style: italic;
+    text-transform: capitalize;
+    margin-bottom: 0.5rem;
+}
+
+.main-personal {
+    top: 35%;
+    left: -45%;
+    width: 60%;
+    text-align: left;
+    z-index: 1;
+}
+
+.main-epp {
+    top: 35%;
+    right: -35%;
+    width: 75%;
+    text-align: right;
+    z-index: 1;
+}
+
+.main-map {
+    top: 35%;
+    left: -40%;
+    width: 90%;
+    text-align: left;
+    z-index: 1;
+}
+
+.main-international {
+    top: 35%;
+    right: -45%;
+    width: 60%;
+    text-align: right;
+    z-index: 1;
+}
+
+
+.main-epp::after {
+    content: "";
+    display: block;
+    background: #049881;
+    width: 100%;
+    height: 0.5rem;
+    opacity: 0.5;
+}
+
+.main-map::after {
+    background: #026da1;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 0.5rem;
+    opacity: 0.5;
+}
+
+.main-international::after {
+    content: "";
+    display: block;
+    background: #5b2b8e;
+    width: 100%;
+    height: 0.5rem;
+    opacity: 0.5;
 }
 
 .main h2 {
