@@ -1,0 +1,10 @@
+.calendar-wrapper {
+    margin: 0 auto;
+    max-width: 100%;
+    align-items: center;
+}
+
+.ant-picker-calendar {
+    padding: 50px 40px;
+
+}

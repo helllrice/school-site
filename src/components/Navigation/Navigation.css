@@ -1,0 +1,29 @@
+.navigation {
+    color: #34135b;
+    padding-top: 40px;
+    font-size: 24px;
+    border: none;
+    background: transparent;
+}
+
+.navigation:hover {
+    border: none;
+}
+
+
+.navigation ul {
+    display: flex;
+}
+
+.navigation ul li span {
+    color: #34135b;
+}
+
+.navigation li {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.ant-menu-title-content {
+    color: #34135b;
+}

@@ -1,0 +1,10 @@
+.spinner-wrapper {
+    position: relative;
+    min-height: 100vh;
+    background: white;
+}
+
+.spinner {
+    margin-top: 15%;
+}
+

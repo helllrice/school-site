@@ -1,0 +1,26 @@
+.search {
+    padding: 30px;
+    font-size: 24px;
+}
+
+.search button {
+    text-transform: uppercase;
+    background: transparent;
+    border: 1px solid #34135b;
+    padding: 15px 15px;
+    cursor: pointer;
+}
+
+button a {
+    color: #34135b;
+}
+
+button a:hover {
+    transition: .3s;
+    color: #2ba883;
+}
+
+button:hover {
+    transition: .3s;
+    border: 1px solid #2ba883;
+}

@@ -1,0 +1,23 @@
+.footer {
+    padding: 50px 40px;
+    width: 100%;
+    background-color: #f0f0f0;
+    font-size: 24px;
+}
+
+.footer-icons img {
+    padding: 0 10px;
+}
+
+.footer-item h2 {
+    color: #34135b;
+}
+
+.footer-item p {
+    color: #34135b;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+}

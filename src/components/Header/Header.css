@@ -1,0 +1,23 @@
+.header {
+    width: 100%;
+    border: 1px solid rgb(235, 237, 240);
+    padding: 0 20px;
+    font-size: 24px;
+    background: url("/public/images/background/menu-bg.jpg") no-repeat right center;
+    background-size: contain;
+}
+
+
+.header-box {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header-logo img {
+    padding-top: 15px;
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+}
